@@ -26,15 +26,11 @@ The dataset (44007h2019-2023.txt) is a raw historical log from a water temperatu
 
 ##🧠 Model
 
-    Architecture: LSTM with multiple layers and a dense output
-
-    Framework: PyTorch Lightning
-
-    Input: 10-step time window of normalized water temperatures
-
-    Output: 1-step forecast
-
-    Loss Function: Mean Squared Error (MSE)
+* Architecture: LSTM with multiple layers and a dense output
+* Framework: PyTorch Lightning
+* Input: 10-step time window of normalized water temperatures
+* Output: 1-step forecast
+* Loss Function: Mean Squared Error (MSE)
 
 ## 📊 Output
 
@@ -45,11 +41,7 @@ The notebook includes:
 
 
 ## 🚀 How to Use
-
-    Clone this repository
-
-    Open WaterTempProj.ipynb in Jupyter or Colab
-
-    Upload the dataset when prompted
-
-    Run all cells to train and evaluate the model
+* Clone this repository
+* Open WaterTempProj.ipynb in Jupyter or Colab
+* Upload the dataset when prompted
+* Run all cells to train and evaluate the model
