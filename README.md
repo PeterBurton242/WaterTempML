@@ -20,11 +20,11 @@ This project uses historical ocean water temperature data to train a deep learni
 To run the notebook locally, install the following Python packages:
 
 
-##📁 Dataset
+## 📁 Dataset
 
 The dataset (44007h2019-2023.txt) is a raw historical log from a water temperature buoy. This file must be uploaded manually when prompted in the notebook (via files.upload() in Colab)
 
-##🧠 Model
+## 🧠 Model
 
 * Architecture: LSTM with multiple layers and a dense output
 * Framework: PyTorch Lightning
